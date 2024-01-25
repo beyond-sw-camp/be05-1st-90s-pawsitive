@@ -86,7 +86,7 @@
 **팀원 소개**
 <div align="center">
     
-|[최수환](https://github.com/OrangeVinyl) | [박시현](https://github.com/SpecialSHipDobby) | [정민](https://github.com/mjjung2) | [정설화](https://github.com/Noononda) | [이영원](https://github.com/nbbb9 ) |
+|[최수환](https://github.com/OrangeVinyl) | [박시현](https://github.com/SpecialSHipDobby) | [정민지](https://github.com/mjjung2) | [정설화](https://github.com/Noononda) | [이영원](https://github.com/nbbb9 ) |
 |------------------------------------------|--------------------------------------|------------------------------------------|-----------------------------------|-------------------------------------|
 
 </div>
