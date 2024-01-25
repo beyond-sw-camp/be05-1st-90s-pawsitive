@@ -245,11 +245,11 @@ CREATE TABLE AdoptApplication (
 			REFERENCES member (member_id),
 	abandoned_id	VARCHAR(10)	NOT NULL
 			REFERENCES AbandonedAnimal (abandoned_id),
-	adoptapplicaton_experience_yn	CHAR(1) NOT NULL DEFAULT 'N',
-	adoptapplicaton_another_yn	CHAR(1) NOT NULL DEFAULT 'N',
-	adoptapplicaton_family_member	INT(10) NOT NULL,
-	adoptapplicaton_apply_date	DATE NOT NULL DEFAULT SYSDATE(),
-	adoptapplicaton_adopt_date	DATE NOT NULL DEFAULT SYSDATE(),
+	adoptapplication_experience_yn	CHAR(1) NOT NULL DEFAULT 'N',
+	adoptapplication_another_yn	CHAR(1) NOT NULL DEFAULT 'N',
+	adoptapplication_family_member	INT(10) NOT NULL,
+	adoptapplication_apply_date	DATE NOT NULL DEFAULT SYSDATE(),
+	adoptapplication_adopt_date	DATE NOT NULL DEFAULT SYSDATE(),
 	CONSTRAINT PRIMARY KEY(member_id, abandoned_id)
 );
 
