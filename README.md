@@ -146,7 +146,7 @@
 
 <br/>
 
-**DDL**
+### 💡DDL
 ```
 CREATE TABLE Member (
 	member_id			VARCHAR(10)	PRIMARY KEY,
