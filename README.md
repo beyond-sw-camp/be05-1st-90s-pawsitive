@@ -55,7 +55,7 @@
 
 [WBS 바로가기 >](https://docs.google.com/spreadsheets/d/1FYC4NPTJYNR4NCAGI-zASTd1faLLUl28Wh7V8S4lDWE/edit#gid=1531810588)
 
-[WBS 그림]
+<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/pics/wbs.png"/>
 
 <br/>
 
@@ -113,7 +113,8 @@
 ---
 
 [요구사항 명세서 바로가기 >](https://docs.google.com/spreadsheets/d/1FYC4NPTJYNR4NCAGI-zASTd1faLLUl28Wh7V8S4lDWE/edit#gid=1162915854)
-[요구사항 명세서 사진]
+
+<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/pics/srs.png"/>
 
 <br />
 
@@ -140,7 +141,8 @@
 ---
 
 [테이블 명세서 바로가기 >](https://docs.google.com/spreadsheets/d/1FYC4NPTJYNR4NCAGI-zASTd1faLLUl28Wh7V8S4lDWE/edit#gid=2132224808)
-[테이블 명세서 사진]
+
+<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/pics/table.png"/>
 
 <br/>
 
@@ -371,7 +373,8 @@ CHECK (admin_id REGEXP '^R[0-9]{5}$');
 ---
 
 [테이블 명세서 바로가기 >](https://docs.google.com/spreadsheets/d/1FYC4NPTJYNR4NCAGI-zASTd1faLLUl28Wh7V8S4lDWE/edit#gid=427773154)
-[테스트 케이스 사진]
+
+<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/pics/testcase.png"/>
 
 <br/>
 
