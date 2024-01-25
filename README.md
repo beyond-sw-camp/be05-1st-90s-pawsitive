@@ -316,6 +316,54 @@ CREATE TABLE benefitmember (
 	benefitmember_discount_rate	INT(3)	NULL DEFAULT 0,
 	CONSTRAINT PRIMARY KEY(member_id, adopt_id)
 );
+
+ALTER TABLE member
+ADD CONSTRAINT pk_member_id_format
+CHECK (member_id REGEXP '^US[0-9]{6}$');
+
+ALTER TABLE pet
+ADD CONSTRAINT pk_pet_id_format
+CHECK (pet_id REGEXP '^PE[0-9]{3}$');
+
+ALTER TABLE category
+ADD CONSTRAINT pk_category_id_format
+CHECK (category_id REGEXP '^CA[0-9]{3}$');
+
+ALTER TABLE product
+ADD CONSTRAINT pk_product_id_format
+CHECK (product_id REGEXP '^P[0-9]{4}$');
+
+ALTER TABLE `order`
+ADD CONSTRAINT pk_order_id_format
+CHECK (order_id REGEXP '^O[0-9]{6}$');
+
+ALTER TABLE orderdetail
+ADD CONSTRAINT pk_orderdetail_id_format
+CHECK (orderdetail_id REGEXP '^OD[0-9]{7}$');
+
+ALTER TABLE abandonedanimal
+ADD CONSTRAINT pk_abandoned_id_format
+CHECK (abandoned_id REGEXP '^AB[0-9]{5}$');
+
+ALTER TABLE adopt
+ADD CONSTRAINT pk_adopt_id_format
+CHECK (adopt_id REGEXP '^AD[0-9]{5}$');
+
+ALTER TABLE basket
+ADD CONSTRAINT pk_basket_id_format
+CHECK (basket_id REGEXP '^B[0-9]{5}$');
+
+ALTER TABLE ask
+ADD CONSTRAINT pk_ask_id_format
+CHECK (ask_id REGEXP '^AS[0-9]{5}$');
+
+ALTER TABLE review
+ADD CONSTRAINT pk_review_id_format
+CHECK (review_id REGEXP '^R[0-9]{5}$');
+
+ALTER TABLE admin
+ADD CONSTRAINT pk_admin_id_format
+CHECK (admin_id REGEXP '^R[0-9]{5}$');
 ```
 
 ### 🪛 테스트케이스 
