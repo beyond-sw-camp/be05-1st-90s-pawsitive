@@ -380,5 +380,64 @@ CHECK (admin_id REGEXP '^R[0-9]{5}$');
 
 <details>
     <summary>테스트 케이스 쿼리</summary>
-
+    <details>
+	    <summary>회원</summary>
+	    <details>
+	    	<summary>기본정보</summary>
+    	    </details>
+	    <details>
+	    	<summary>주문</summary>
+    	    </details>
+	    <details>
+	    	<summary>상품</summary>
+    	    </details>
+	    <details>
+	    	<summary>입양</summary>
+    	    </details>
+	    <details>
+	    	<summary>찜</summary>
+    	    </details>
+	    <details>
+	    	<summary>문의하기</summary>
+    	    </details>
+	    <details>
+	    	<summary>후기</summary>
+    	    </details>
+	    <details>
+	    	<summary>장바구니</summary>
+    	    </details>
+    </details>
+    <details>
+	    <summary>관리자</summary>
+	    <details>
+	    	<summary>회원</summary>
+    	    </details>
+	    <details>
+	    	<summary>상품</summary>
+    	    </details>
+	    <details>
+	    	<summary>주문</summary>
+    	    </details>
+	    <details>
+	    	<summary>주문상세</summary>
+    	    </details>
+	    <details>
+	    	<summary>유기동물</summary>
+    	    </details>
+	    <details>
+	    	<summary>입양</summary>
+    	    </details>
+	    <details>
+	    	<summary>문의</summary>
+    	    </details>
+	    <details>
+	    	<summary>후기</summary>
+    	    </details>
+	    <details>
+	    	<summary>혜택대상자</summary>
+    	    </details>
+	    <details>
+	    	<summary>입양신청서</summary>
+    	    </details>
+    </details>
 </details>
