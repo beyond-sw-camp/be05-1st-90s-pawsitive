@@ -86,7 +86,10 @@
 **팀원 소개**
 <div align="center">
     
-|[최수환](https://github.com/OrangeVinyl) | [박시현](https://github.com/SpecialSHipDobby) | [정민지](https://github.com/mjjung2) | [정설화](https://github.com/Noononda) | [이영원](https://github.com/nbbb9 ) |
-|------------------------------------------|--------------------------------------|------------------------------------------|-----------------------------------|-------------------------------------|
+|<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/profile/hwan_profile.jpg" height="150" />|<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/profile/heon_profile.jpg" height="150" />|<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/profile/ji_profile.jpg" height="150" />|<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/profile/hwa_profile.jpeg" height="150" />|<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/profile/won_profile.jpeg" height="150" />|
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|<div align="center">[최수환](https://github.com/OrangeVinyl)</div>  |<div align="center"> [박시현](https://github.com/SpecialSHipDobby) </div>|<div align="center"> [정민지](https://github.com/mjjung2)</div> |<div align="center"> [정설화](https://github.com/Noononda)</div> |<div align="center"> [이영원](https://github.com/nbbb9 )</div> |
+
 
 </div>
+
