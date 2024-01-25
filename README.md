@@ -28,6 +28,37 @@
 
 `PAWsitive`의 존재 가치는, 바쁜 현대인의 삶에 있어 번거로움을 최소화하고 합리적인 선택지를 제시함으로서 반려인이 반려동물과의 행복한 공존을 할 수 있게 하는 것입니다.
 
+<br/>
+
+### 🫡 팀 소개
+--- 
+**팀명**
+### `90's`  
+팀원 전원이 90년대에 태어나서 이름을 정했습니다 :)
+
+<br/>
+
+**팀원 소개**
+<div align="center">
+    
+|<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/profile/hwan_profile.jpg" height="150" />|<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/profile/heon_profile.jpg" height="150" />|<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/profile/ji_profile.jpg" height="150" />|<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/profile/hwa_profile.jpeg" height="150" />|<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/profile/won_profile.jpeg" height="150" />|
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|<div align="center">[최수환](https://github.com/OrangeVinyl)</div>  |<div align="center"> [박시현](https://github.com/SpecialSHipDobby) </div>|<div align="center"> [정민지](https://github.com/mjjung2)</div> |<div align="center"> [정설화](https://github.com/Noononda)</div> |<div align="center"> [이영원](https://github.com/nbbb9 )</div> |
+
+
+</div>
+
+
+### 📆 Work Breakdown Structure
+
+---
+
+[WBS 바로가기 >](https://docs.google.com/spreadsheets/d/1FYC4NPTJYNR4NCAGI-zASTd1faLLUl28Wh7V8S4lDWE/edit#gid=1531810588)
+
+[WBS 그림]
+
+<br/>
+
 ### ⚙️ PAWsitive 상세정책
 
 ---
@@ -74,22 +105,229 @@
         - 일주일 이내 환불 가능
     - 등급별 할인
         - 결제할 때 적용
-     
-### 🫡 팀 소개
---- 
-**팀명**
-### `90's`  
-팀원 전원이 90년대에 태어나서 이름을 정했습니다 :)
 
 <br/>
 
-**팀원 소개**
-<div align="center">
-    
-|<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/profile/hwan_profile.jpg" height="150" />|<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/profile/heon_profile.jpg" height="150" />|<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/profile/ji_profile.jpg" height="150" />|<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/profile/hwa_profile.jpeg" height="150" />|<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/profile/won_profile.jpeg" height="150" />|
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|<div align="center">[최수환](https://github.com/OrangeVinyl)</div>  |<div align="center"> [박시현](https://github.com/SpecialSHipDobby) </div>|<div align="center"> [정민지](https://github.com/mjjung2)</div> |<div align="center"> [정설화](https://github.com/Noononda)</div> |<div align="center"> [이영원](https://github.com/nbbb9 )</div> |
+### 📜 요구사항
+
+---
+
+[요구사항 명세서 바로가기 >](https://docs.google.com/spreadsheets/d/1FYC4NPTJYNR4NCAGI-zASTd1faLLUl28Wh7V8S4lDWE/edit#gid=1162915854)
+[요구사항 명세서 사진]
+
+<br />
+
+### 🗂️ Database Modeling
+
+---
+
+**논리적 / 물리적 데이터베이스 모델링**
+
+<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/erd/erd.png"/>
+
+<details>
+    <summary>ERD 확대 이미지 확인</summary>
+    <img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/erd/erd_green.png" />
+    <img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/erd/erd_purple.png" />
+    <img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/erd/erd_red.png" />
+    <img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/erd/erd_yellow.png" />
+</details>
+
+<br />
+
+### 📦 테이블
+
+---
+
+[테이블 명세서 바로가기 >](https://docs.google.com/spreadsheets/d/1FYC4NPTJYNR4NCAGI-zASTd1faLLUl28Wh7V8S4lDWE/edit#gid=2132224808)
+[테이블 명세서 사진]
+
+<br/>
+
+**DDL**
+```
+CREATE TABLE Member (
+	member_id			VARCHAR(10)	PRIMARY KEY,
+	member_password	VARCHAR(20)	NOT NULL,
+	member_name			VARCHAR(10)	NOT NULL,
+	member_phone		VARCHAR(13)	NOT NULL,
+	member_birth		DATE	NULL,
+	member_address		VARCHAR(100)NOT NULL,
+	member_gender		CHAR(1)		NOT NULL
+			CHECK (member_gender IN ('M', 'F')),
+	member_email		VARCHAR(20)	NOT NULL,
+	member_grade		VARCHAR(3)	NOT NULL
+			CHECK (member_grade IN ('일반', '친구', '가족', 'VIP'))
+);
+
+CREATE TABLE Pet (
+	pet_id				VARCHAR(10)	PRIMARY KEY,
+	pet_type				VARCHAR(10)	NOT NULL
+);
+
+CREATE TABLE Category (
+	category_id			VARCHAR(10)	PRIMARY KEY,
+	category_name		VARCHAR(20)	NOT NULL
+);
+
+CREATE TABLE Product (
+	product_id					VARCHAR(10)	PRIMARY KEY,
+	category_id					VARCHAR(10)	NOT NULL
+			REFERENCES category (category_id),
+	pet_id						VARCHAR(10)	NOT NULL
+			REFERENCES pet (pet_id),
+	product_name				VARCHAR(20)	NULL,
+	product_image				VARCHAR(100)NULL,
+	product_detail				VARCHAR(400)NOT NULL,
+	product_price				INT(10)	NOT NULL DEFAULT 1000,
+	product_sales_price		INT(10)	NOT NULL DEFAULT 1000,
+	product_delete_yn			CHAR(1)	NOT NULL DEFAULT 'N',
+	product_received_date	DATE	NOT NULL DEFAULT SYSDATE()
+);
+
+CREATE TABLE ProductDetail (
+	product_id					VARCHAR(10)
+			REFERENCES product (product_id),
+	productdetail_stock		INT(7) NOT NULL DEFAULT 0,
+	productdetail_expire_date	DATE	NOT NULL DEFAULT (SYSDATE() + INTERVAL 3 MONTH),
+	productdetail_register_date	DATE	NOT NULL DEFAULT SYSDATE(),
+	CONSTRAINT PRIMARY KEY(product_id)
+);
+
+CREATE TABLE `Order` (
+	order_id				VARCHAR(10)	PRIMARY KEY,
+	member_id			VARCHAR(10)	NOT NULL
+			REFERENCES member (member_id),
+	order_recieve_name		VARCHAR(10)	NOT NULL,
+	order_recieve_address	VARCHAR(50)	NOT NULL,
+	order_recieve_phone_number	INT(13)	NOT NULL,
+	order_date	DATE	NOT NULL DEFAULT SYSDATE(),
+	order_zipcode	INT(5)	NOT NULL,
+	order_delivery_message	VARCHAR(100) NULL DEFAULT( "요청사항 없음" ),
+	order_status	VARCHAR(10)	NULL
+				CHECK (order_status IN ('주문확인', '발송대기', '배송중', '배송완료', '구매확정')),
+	order_total_amount	INT(10)	NOT NULL DEFAULT 0,
+	order_total_price		INT(7)	NOT NULL DEFAULT 0,
+	order_cashreceipt_yn	CHAR(1)	NOT NULL DEFAULT 'N',
+	order_payment_method	VARCHAR(20)	NOT NULL
+				CHECK (order_payment_method IN('카드결제', '계좌이체', '무통장입금', '소액결제'))
+);
+
+CREATE TABLE Orderdetail (
+	orderdetail_id	VARCHAR(10)	PRIMARY KEY,
+	order_id	VARCHAR(10)	NOT NULL
+			REFERENCES `order` (order_id),
+	product_id	VARCHAR(10)	NOT NULL
+			REFERENCES product (product_id)
+);
+
+CREATE TABLE AbandonedAnimal (
+	abandoned_id	VARCHAR(10)	PRIMARY KEY,
+	pet_id	VARCHAR(10)	NOT NULL
+			REFERENCES pet (pet_id),
+	abandonedanimal_entrance_date	DATE	NOT NULL DEFAULT SYSDATE(),
+	abandonedanimal_last_date	DATE	NOT NULL DEFAULT((SYSDATE() + INTERVAL 1 MONTH)),
+	abandonedanimal_actual_name	VARCHAR(10)	NOT NULL DEFAULT('알수없음'),
+	abandonedanimal_disease	VARCHAR(100)	NOT NULL DEFAULT('질병없음'),
+	abandonedanimal_neutering_yn	CHAR(1)	NOT NULL DEFAULT('N'),
+	abandonedanimal_animal_age		INT(5)	NOT NULL DEFAULT 0
+);
+
+CREATE TABLE Adopt (
+	adopt_id	VARCHAR(10)	PRIMARY KEY,
+	abandoned_id	VARCHAR(10)	NOT NULL
+			REFERENCES AbandonedAnimal (abandoned_id),
+	adopt_date	DATE	NOT NULL	DEFAULT SYSDATE()
+);
+
+CREATE TABLE AdoptApplication (
+	member_id	VARCHAR(10)
+			REFERENCES member (member_id),
+	abandoned_id	VARCHAR(10)	NOT NULL
+			REFERENCES AbandonedAnimal (abandoned_id),
+	adoptapplicaton_experience_yn	CHAR(1) NOT NULL DEFAULT 'N',
+	adoptapplicaton_another_yn	CHAR(1) NOT NULL DEFAULT 'N',
+	adoptapplicaton_family_member	INT(10) NOT NULL,
+	adoptapplicaton_apply_date	DATE NOT NULL DEFAULT SYSDATE(),
+	adoptapplicaton_adopt_date	DATE NOT NULL DEFAULT SYSDATE(),
+	CONSTRAINT PRIMARY KEY(member_id, abandoned_id)
+);
 
 
-</div>
+CREATE TABLE Basket (
+	basket_id		VARCHAR(10)	PRIMARY KEY,
+	member_id	VARCHAR(10)	NOT NULL
+			REFERENCES member (member_id),
+	product_id	VARCHAR(10)	NOT NULL
+			REFERENCES product (product_id),
+	basket_quantity	INT(7) NOT NULL DEFAULT 0
+);
 
+CREATE TABLE Wish (
+	member_id	VARCHAR(10)	NOT NULL
+			REFERENCES member (member_id),
+	product_id	VARCHAR(10)	NOT NULL
+			REFERENCES product (product_id),
+	CONSTRAINT PRIMARY KEY (member_id, product_id)
+);
+
+CREATE TABLE Ask (
+	ask_id		VARCHAR(10)	PRIMARY KEY,
+	member_id	VARCHAR(10)	NOT NULL
+			REFERENCES member (member_id),
+	product_id	VARCHAR(10)	NOT NULL
+			REFERENCES product (product_id),
+	ask_title		VARCHAR(50)	NOT NULL,
+	ask_date		DATE		NOT NULL DEFAULT SYSDATE(),
+	ask_content	VARCHAR(500)	NOT NULL,
+	ask_comments	VARCHAR(500)	NULL,
+	ask_product_image	VARCHAR(100) NULL,
+	ask_category	VARCHAR(20)	NOT NULL
+			CHECK (ask_category IN('배송', '결제', '상품', '기타')),
+	ask_content_hide_yn	CHAR(1)	NOT NULL DEFAULT 'N'
+);
+
+CREATE TABLE Review (
+	review_id		VARCHAR(10)	PRIMARY KEY,
+	product_id	VARCHAR(10)	NOT NULL
+			REFERENCES product (product_id),
+	member_id	VARCHAR(10)	NOT NULL
+			REFERENCES member (member_id),
+	review_title	VARCHAR(50)	NOT NULL,
+	review_date	DATE	NOT NULL DEFAULT SYSDATE(),
+	review_contents	VARCHAR(500) NOT NULL,
+	review_comments	VARCHAR(500) NULL,
+	review_point	INT(10)	NOT NULL DEFAULT 0,
+	review_image	VARCHAR(100)	NULL
+);
+
+CREATE TABLE ADMIN (
+	admin_id				VARCHAR(10)	PRIMARY KEY,
+	admin_password		VARCHAR(20)	NOT NULL,
+	admin_name			VARCHAR(10)	NOT NULL
+);
+
+CREATE TABLE benefitmember (
+	member_id		VARCHAR(10)
+			REFERENCES MEMBER (member_id),
+	adopt_id		VARCHAR(10)
+			REFERENCES Adopt (adopt_id),
+	benefitmember_discount_date	DATE	NOT NULL,
+	benefitmember_discount_rate	INT(3)	NULL DEFAULT 0,
+	CONSTRAINT PRIMARY KEY(member_id, adopt_id)
+);
+```
+
+### 🪛 테스트케이스 
+
+---
+
+[테이블 명세서 바로가기 >](https://docs.google.com/spreadsheets/d/1FYC4NPTJYNR4NCAGI-zASTd1faLLUl28Wh7V8S4lDWE/edit#gid=427773154)
+[테스트 케이스 사진]
+
+<br/>
+
+<details>
+    <summary>테스트 케이스 쿼리</summary>
+
+</details>
