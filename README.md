@@ -1,4 +1,8 @@
-# 세상 모든 동물과 함께 즐겁게 지내는 세상, PAWsitive
+<div align="center"><img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/logo.png"/></div>
+
+<div align="center"> 
+	<h1>세상 모든 동물과 함께 즐겁게 지내는 세상, PAWsitive</h1> 
+</div>
 
 ### ✅ 프로젝트 개요
 
