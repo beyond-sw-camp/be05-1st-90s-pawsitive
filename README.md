@@ -128,7 +128,7 @@
 
 <br/>
 
-**🚨 DB Naming Convention**
+### 🚨 DB Naming Convention
 
 모든 명명은 단축해서 사용하지 않는다.
 
