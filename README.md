@@ -403,9 +403,8 @@ CHECK (admin_id REGEXP '^ADM[0-9]{3}$');
 
 <br/>
 
+
 <details>
-    <summary>테스트 케이스 쿼리</summary>
-    <details>
 	    <summary>회원</summary>
 	    <details>
 	    	<summary>기본정보</summary>
@@ -450,7 +449,10 @@ CHECK (admin_id REGEXP '^ADM[0-9]{3}$');
 	    	<summary>유기동물</summary>
     	    </details>
 	    <details>
+			49번.
 	    	<summary>입양</summary>
+			<div align="center">
+			<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_49.png"/>
     	    </details>
 	    <details>
 	    	<summary>문의</summary>
@@ -465,4 +467,4 @@ CHECK (admin_id REGEXP '^ADM[0-9]{3}$');
 	    	<summary>입양신청서</summary>
     	    </details>
     </details>
-</details>
+
