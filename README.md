@@ -480,6 +480,7 @@ CHECK (admin_id REGEXP '^ADM[0-9]{3}$');
 	    <summary>관리자</summary>
 	    <details>
 	    	<summary>회원</summary>
+			32. 회원 수 조회
 			 <img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_32.png"/>
             33. 회원 정보 조회
             <img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_33.png"/>
