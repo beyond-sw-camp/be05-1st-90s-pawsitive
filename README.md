@@ -516,19 +516,41 @@ CHECK (admin_id REGEXP '^ADM[0-9]{3}$');
 	    <summary>관리자</summary>
 	    <details>
 	    	<summary>회원</summary>
-    	</details>
-	    <details>
-	    	<summary>상품</summary>
-    	</details>
-	    <details>
-	    	<summary>주문</summary>
-    	</details>
-	    <details>
-	    	<summary>주문상세</summary>
-    	</details>
-	    <details>
-	    	<summary>유기동물</summary>
-    	</details>
+			32. 회원 수 조회
+			 <img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_32.png"/>
+            33. 회원 정보 조회
+            <img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_33.png"/>
+            34. 회원 정보 수정
+            <img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_34.png"/>
+            35. 회원 계정 삭제
+            <img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_35.png"/>
+            36. 상품 조회
+            <img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_36.png"/>
+            37. 상품 등록
+            <img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_37.png"/>
+            38. 상품 설명 수정
+            <img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_38.png"/>
+            39. 상품 이미지 수정
+            <img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_39.png"/>
+            40. 상품 가격 수정
+            <img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_40.png"/>
+            41. 상품 정보 삭제(가리기)
+            <img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_41.png"/>
+            42. 일별 주문 수량 조회
+            <img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_42.png"/>
+            43. 재구매 횟수가 많은 상품 순위 조회
+            <img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_43.png"/>
+            44. 유기동물 등록
+            <img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_44.png"/>
+            45. 등록 유기동물 삭제
+            <img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_45.png"/>
+            46. 당일 등록(신규입소) 유기동물 조회
+            <img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_46.png"/>
+            47. 해당일 기준 입양 공고 기한이 얼마 남지 않은 동물 순으로 조회
+            <img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_47.png"/>
+            48. 유기동물 상태 변경
+            <img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_48.png"/>
+		</details>
 	    <details>
 			<summary>입양</summary>
 			49. 입양 완료 동물 전체 조회
