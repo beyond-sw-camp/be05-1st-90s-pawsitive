@@ -599,4 +599,4 @@ CHECK (admin_id REGEXP '^ADM[0-9]{3}$');
 			63. 유기동물별 입양신청서 제출 현황 조회
 			<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_61.png"/>
     	</details>
-<detailjpg
+</details>
