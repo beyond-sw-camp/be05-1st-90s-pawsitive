@@ -499,7 +499,6 @@ CHECK (admin_id REGEXP '^ADM[0-9]{3}$');
     	</details>
 	    <details>
 	    	<summary>문의</summary>
-<<<<<<< HEAD
 			52. 문의 수정
 			<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_52.png"/>
 			53. 문의 삭제
