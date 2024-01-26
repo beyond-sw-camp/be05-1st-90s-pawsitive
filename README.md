@@ -465,15 +465,51 @@ CHECK (admin_id REGEXP '^ADM[0-9]{3}$');
     	</details>
 	    <details>
 	    	<summary>찜</summary>
+			14. 상품 찜 기능
+			<img src='https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_14.png'/>
+			15. 찜 취소
+			<img src='https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_15.png'/>
+			16. 찜한 전체 상품 조회
+			<img src='https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_16.png'/>
+			17. 찜 수가 높은 상품 조회
+			<img src='https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_17.png'/>
+			18. 카테고리 별 찜 수가 높은 상품 조회
+			<img src='https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_18.png'/>
     	</details>
 	    <details>
 	    	<summary>문의하기</summary>
+			19. 문의 작성
+			<img src='https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_19.png'/>
+			20. 문의 수정
+			<img src='https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_20.png'/>
+			21. 문의 삭제
+			<img src='https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_21.png'/>
     	</details>
 	    <details>
 	    	<summary>후기</summary>
+			22. 상품 후기 작성
+			<img src='https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_22.png'/>
+			23. 후기 수정
+			<img src='https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_23.png'/>
+			24. 후기 삭제
+			<img src='https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_24.png'/>
+			25. 후기 답글 작성
+			<img src='https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_25.png'/>
     	</details>
 	    <details>
 	    	<summary>장바구니</summary>
+			26. 장바구니 담기
+			<img src='https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_26.png'/>
+			27. 장바구니 조회
+			<img src='https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_27.png'/>
+			28. 장바구니 상품 수정
+			<img src='https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_28.png'/>
+			29. 장바구니 상품 삭제
+			<img src='https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_29.png'/>
+			30. 담긴 상품 총 상품 가격 조회
+			<img src='https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_30.png'/>
+			31. 담긴 상품 총 상품 개수 조회
+			<img src='https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_31.png'/>
     	</details>
 </details>
 <details>
