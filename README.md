@@ -37,20 +37,24 @@
 <br/>
 
 ### 🫡 팀 소개
---- 
+
+---
+
 **팀명**
-### `90's`  
+
+### `90's`
+
 팀원 전원이 90년대에 태어나서 정해진 이름입니다 :)
 
 <br/>
 
 **팀원 소개**
+
 <div align="center">
     
 |<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/profile/hwan_profile.jpg" height="150" />|<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/profile/heon_profile.jpg" height="150" />|<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/profile/ji_profile.jpg" height="150" />|<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/profile/hwa_profile.jpeg" height="150" />|<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/profile/won_profile.jpeg" height="150" />|
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |<div align="center">[최수환](https://github.com/OrangeVinyl)</div>  |<div align="center"> [박시현](https://github.com/SpecialSHipDobby) </div>|<div align="center"> [정민지](https://github.com/mjjung2)</div> |<div align="center"> [정설화](https://github.com/Noononda)</div> |<div align="center"> [이영원](https://github.com/nbbb9 )</div> |
-
 
 </div>
 <br/>
@@ -70,47 +74,47 @@
 ---
 
 - 회원 등급
-    - 일반 : 혜택 없음
-    - 친구 : 할인 혜택 5% (한 마리 입양시 또는 월 300,000원 이상 구매시)
-    - 가족 : 할인 혜택 10% (두 마리 입양시 또는 월 450,000원 이상 구매시)
-    - VIP &nbsp;&nbsp;: 할인 혜택 10%, 배송비 무료 (세 마리 이상 입양시 또는 월 600,000원 이상 구매시)
+  - 일반 : 혜택 없음
+  - 친구 : 할인 혜택 5% (한 마리 입양시 또는 월 300,000원 이상 구매시)
+  - 가족 : 할인 혜택 10% (두 마리 입양시 또는 월 450,000원 이상 구매시)
+  - VIP &nbsp;&nbsp;: 할인 혜택 10%, 배송비 무료 (세 마리 이상 입양시 또는 월 600,000원 이상 구매시)
 - 입양시 혜택
-    - 필요 물품 제공
-        - 고양이 : 고양이 모래 3팩, 사료 3봉지, 장난감 랜덤 1종
-        - 강아지 : 강아지 배변패드 3팩, 사료 3봉지, 장난감 랜덤 1종
+  - 필요 물품 제공
+    - 고양이 : 고양이 모래 3팩, 사료 3봉지, 장난감 랜덤 1종
+    - 강아지 : 강아지 배변패드 3팩, 사료 3봉지, 장난감 랜덤 1종
 - 보호소 입소 가능 동물
-    - 고양이
-    - 강아지
+  - 고양이
+  - 강아지
 - 보호소 입소 후 보호기간
-    - 입소일로부터 1개월
+  - 입소일로부터 1개월
 - 쇼핑몰 취급 동물
-    - 고양이
-    - 강아지
-    - 토끼
-    - 햄스터
-    - 고슴도치
-    - 파충류
-    - 조류
+  - 고양이
+  - 강아지
+  - 토끼
+  - 햄스터
+  - 고슴도치
+  - 파충류
+  - 조류
 - 관리자
-    - 회원 등급 부여(입양 여부 또는 구매 금액에 따라)
-    - 회원 관리(회원 정보 수정, 회원 계정 삭제)
-    - 후기 게시글 관리 및 답글 달기
-    - 문의 게시글 관리 및 답글 달기
+  - 회원 등급 부여(입양 여부 또는 구매 금액에 따라)
+  - 회원 관리(회원 정보 수정, 회원 계정 삭제)
+  - 후기 게시글 관리 및 답글 달기
+  - 문의 게시글 관리 및 답글 달기
 - 회원 권한
-    - 입양 요청 보내기
-    - 상품 찜, 장바구니 담기
-    - 상품 구매
-    - 후기 작성
-    - 문의 작성
+  - 입양 요청 보내기
+  - 상품 찜, 장바구니 담기
+  - 상품 구매
+  - 후기 작성
+  - 문의 작성
 - 비회원
-    - 권한 없음
+  - 권한 없음
 - 결제 및 환불 정책
-    - 입양 취소
-        - 불가능
-    - 상품 환불
-        - 일주일 이내 환불 가능
-    - 등급별 할인
-        - 결제시 적용
+  - 입양 취소
+    - 불가능
+  - 상품 환불
+    - 일주일 이내 환불 가능
+  - 등급별 할인
+    - 결제시 적용
 
 <br/>
 
@@ -129,17 +133,21 @@
 모든 명명은 단축해서 사용하지 않는다.
 
 Table Naming
-- 	Table name은 간결하고 명확하게 `단수형`으로 Pascal case(`PascalCase`)표현한다.
+
+-     Table name은 간결하고 명확하게 `단수형`으로 Pascal case(`PascalCase`)표현한다.
 
 Column Naming
-- 	각 column은 해당 column이 저장하는 데이터의 내용을 반영해 Snake case (`snake_case`)로 작성한다.
-- 	(`tableName_columnName`) 으로 명명한다.
+
+-     각 column은 해당 column이 저장하는 데이터의 내용을 반영해 Snake case (`snake_case`)로 작성한다.
+-     (`tableName_columnName`) 으로 명명한다.
 
 Primary Key Naming
-- 	기본키(PK)는 `id`라는 이름을 이용해 Table name과 결합해 명명한다.
+
+-     기본키(PK)는 `id`라는 이름을 이용해 Table name과 결합해 명명한다.
 
 Index Naming
-- 	인덱스는 해당 테이블 및 열의 이름과 연결하여 명명한다. ex) `idx_user_name`
+
+-     인덱스는 해당 테이블 및 열의 이름과 연결하여 명명한다. ex) `idx_user_name`
 
 <br />
 
@@ -172,6 +180,7 @@ Index Naming
 <br/>
 
 ### 💡DDL
+
 ```
 CREATE TABLE Member (
 	member_id			VARCHAR(10)	PRIMARY KEY,
@@ -393,7 +402,7 @@ ADD CONSTRAINT pk_admin_id_format
 CHECK (admin_id REGEXP '^ADM[0-9]{3}$');
 ```
 
-### 🪛 테스트케이스 
+### 🪛 테스트케이스
 
 ---
 
@@ -403,56 +412,84 @@ CHECK (admin_id REGEXP '^ADM[0-9]{3}$');
 
 <br/>
 
-
 <details>
 	    <summary>회원</summary>
 	    <details>
 	    	<summary>기본정보</summary>
-    	    </details>
+			1. 회원가입
+			<img src='https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/pics/testcase_01.png'/>
+			2. 회원정보 수정
+			<img src='https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/pics/testcase_02.png'/>
+			3. 회원정보 조회
+			<img src='https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/pics/testcase_03.png'/>
+    	</details>
 	    <details>
 	    	<summary>주문</summary>
-    	    </details>
+			1. 주문 정보 조회
+			<img src='https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/pics/testcase_04.png'/>
+			2. 주문 취소
+			<img src='https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/pics/testcase_05_1.png'/>
+			<img src='https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/pics/testcase_05_2.png'/>
+    	</details>
 	    <details>
 	    	<summary>상품</summary>
-    	    </details>
+			1. 모든 상품 조회
+			<img src='https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/pics/testcase_06.png'/>
+			2. 카테고리 별 상품 조회
+			<img src='https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/pics/testcase_07.png'/>
+			3. 구매수가 가장 많은 상품 조회
+			<img src='https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/pics/testcase_08.png'/>
+			4. 카테고리 별 구매수가 가장 많은 상품 조회
+			<img src='https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/pics/testcase_09.png'/>
+    	</details>
 	    <details>
 	    	<summary>입양</summary>
-    	    </details>
+			1. 입양 가능 동물 조회
+			<img src='https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/pics/testcase_10.png'/>
+			2. 입양 신청서 작성
+			<img src='https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/pics/testcase_11.png'/>
+			3. 입양 신청서 수정
+			<img src='https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/pics/testcase_12_1.png'/>
+			<img src='https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/pics/testcase_12_2.png'/>
+			4. 입양 신청서 삭제
+			<img src='https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/pics/testcase_13_1.png'/>
+			<img src='https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/pics/testcase_13_2.png'/>
+    	</details>
 	    <details>
 	    	<summary>찜</summary>
-    	    </details>
+	
+    	</details>
 	    <details>
 	    	<summary>문의하기</summary>
-    	    </details>
+    	</details>
 	    <details>
 	    	<summary>후기</summary>
-    	    </details>
+    	</details>
 	    <details>
 	    	<summary>장바구니</summary>
-    	    </details>
-    </details>
-    <details>
+    	</details>
+</details>
+<details>
 	    <summary>관리자</summary>
 	    <details>
 	    	<summary>회원</summary>
-    	    </details>
+    	</details>
 	    <details>
 	    	<summary>상품</summary>
-    	    </details>
+    	</details>
 	    <details>
 	    	<summary>주문</summary>
-    	    </details>
+    	</details>
 	    <details>
 	    	<summary>주문상세</summary>
-    	    </details>
+    	</details>
 	    <details>
 	    	<summary>유기동물</summary>
-    	    </details>
+    	</details>
 	    <details>
 			<summary>입양</summary>
 			49. 입양 완료 동물 전체 조회
 			<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_49.png"/>
-			</br>
 			50. 종별 입양 완료 수 조회
 			<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_50.png"/>
 		</details>    	  
@@ -460,55 +497,42 @@ CHECK (admin_id REGEXP '^ADM[0-9]{3}$');
 	    	<summary>찜</summary>
 			51. 상품별 찜 순위로 고객별 선호도 조회 가능
 			<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_51.png"/>
-			</br>
     	</details>
 	    <details>
 	    	<summary>문의</summary>
+<<<<<<< HEAD
 			52. 문의 수정
 			<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_52.png"/>
-			</br>
 			53. 문의 삭제
 			<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_53.png"/>
-			</br>
 			54. 문의 전체 조회
 			<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_54.png"/>
-			</br>
 			55. 질문분류별 문의 개수 조회
 			<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_55.png"/>
-			</br>
     	</details>
 	    <details>
 	    	<summary>후기</summary>
 			56. 전체 후기 조회
 			<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_56.png"/>
-			</br>
 			57. 후기 수정
 			<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_57.png"/>
-			</br>
 			58. 후기 삭제
 			<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_58.png"/>
-			</br>
 			59. 후기 답글 작성
 			<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_59.png"/>
-			</br>
     	</details>
 	    <details>
 	    	<summary>혜택대상자</summary>
 			60. 회원별 할인율 지정
 			<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_60.png"/>
-			</br>
 			61. 회원별 할인 기간 지정(6개월)
 			<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_61.png"/>
-			</br>
     	 </details>
 	    <details>
 	    	<summary>입양신청서</summary>
 			62. 입양신청서 조회
 			<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_61.png"/>
-			</br>
 			63. 유기동물별 입양신청서 제출 현황 조회
 			<img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/testcase/testcase_61.png"/>
-			</br>
     	</details>
-    </details>
-
+<details>
