@@ -134,20 +134,20 @@
 
 Table Naming
 
--     Table name은 간결하고 명확하게 `단수형`으로 Pascal case(`PascalCase`)표현한다.
+- Table name은 간결하고 명확하게 `단수형`으로 Pascal case(`PascalCase`)표현한다.
 
 Column Naming
 
--     각 column은 해당 column이 저장하는 데이터의 내용을 반영해 Snake case (`snake_case`)로 작성한다.
--     (`tableName_columnName`) 으로 명명한다.
+- 각 column은 해당 column이 저장하는 데이터의 내용을 반영해 Snake case (`snake_case`)로 작성한다.
+- (`tableName_columnName`) 으로 명명한다.
 
 Primary Key Naming
 
--     기본키(PK)는 `id`라는 이름을 이용해 Table name과 결합해 명명한다.
+- 기본키(PK)는 `id`라는 이름을 이용해 Table name과 결합해 명명한다.
 
 Index Naming
 
--     인덱스는 해당 테이블 및 열의 이름과 연결하여 명명한다. ex) `idx_user_name`
+- 인덱스는 해당 테이블 및 열의 이름과 연결하여 명명한다. ex) `idx_user_name`
 
 <br />
 
@@ -179,7 +179,7 @@ Index Naming
 
 <br/>
 
-### 💡DDL
+### 💡 DDL
 
 ```
 CREATE TABLE Member (
@@ -411,6 +411,10 @@ CHECK (admin_id REGEXP '^ADM[0-9]{3}$');
 <img src="https://github.com/beyond-sw-camp/be05-1st-90s-pawsitive/blob/main/png/readme/pics/testcase.png"/>
 
 <br/>
+
+### 👁️ 테스트 케이스 쿼리
+
+---
 
 <details>
 	    <summary>회원</summary>
